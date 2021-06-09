@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 1</title>
+    <style>
+        div {
+            background-color: lightblue;
+            padding: 30px;
+            text-align: center;
+            color: rgb(10, 44, 138);
+        }
+        button{
+       
+        border-radius: 12px;
+        padding: 14px 40px;
+      
+        
+      
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        ФИО 
+    </div >  
+    <div id="sins"> 
+    </div >
+          
+    <p style="text-align: left">    <button id="dish">Еда</button> </p>
+    <p style="text-align: center">  <button id="drink">Алкоголь</button> </p>
+    <p style="text-align: right">   <button id="NA">Без *простите господи* Алкоголя</button> </p>
+    
+
+    <script>
+
+        let sins = document.getElementById("sins")
+
+        let dish = document.getElementById("dish")
+        dish.addEventListener('click', function (){
+        sins.innerText = 'Мясцо'
+  })
+        let drink = document.getElementById("drink")
+        drink.addEventListener('click', function (){
+        sins.innerText = 'Пивандрий'
+  })
+        let NA = document.getElementById("NA")
+        NA.addEventListener('click', function (){
+        sins.innerText = 'Святая вода'
+    
+
+  })
+        
+  
+    alert(
+        '\\Kitsul\\ \n'+
+        '\"Yuriy\" \n' +
+        '\u2732 +380970386242 \n' +    
+        '\u26D4 Odessa'
+
+  )
+
+    </script>
+    </div> 
+</body>
+</html>
